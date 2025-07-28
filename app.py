@@ -19,7 +19,7 @@ movies = pd.DataFrame(movies_dict)
 
 similarity = pickle.load(open('similarity.pkl', 'rb'))
 
-# 📸 Function to fetch movie poster using TMDB API
+# 📸 Function to fetch movie poster using TMDB Api
 def fetch_poster(movie_id):
     url = f"https://api.themoviedb.org/3/movie/{movie_id}?api_key=c532bcae9816a825d6f8d0def69a168e&language=en-US"
     try:
