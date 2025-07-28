@@ -2,6 +2,16 @@ import streamlit as st
 import pickle
 import pandas as pd
 import requests
+import gdown
+import os
+
+# === Download similarity.pkl from Google Drive ===
+file_id = '1A7XZvyoyPmiA_2OD8-d_Yg-Jya4sG0HI'
+output = 'similarity.pkl'
+
+if not os.path.exists(output):
+    url = f"https://drive.google.com/uc?id={file_id}"
+    gdown.download(url, output, quiet=False)
 
 # 🔁 Load pickled data
 movies_dict = pickle.load(open('movies_dict.pkl', 'rb'))

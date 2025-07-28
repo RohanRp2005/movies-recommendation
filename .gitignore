@@ -1,0 +1,16 @@
+# Ignore virtual environment
+.venv/
+venv/
+
+# Ignore PyCharm or VSCode IDE config
+.idea/
+.vscode/
+
+# Ignore bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
