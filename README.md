@@ -43,5 +43,7 @@ I built this project as part of my learning journey using Python, Jupyter Notebo
 3. Run the app with:
    ```bash
    streamlit run app.py
-   or click/copy and paste on google👇🏻
-   https://rpmoviesrecco.streamlit.app/
+
+   
+## 🌐 Live App
+👉 [Try the app here](https://rpmoviesrecco.streamlit.app/)
